@@ -1,5 +1,10 @@
-# bfutil-db-migration
+# Beachfront Data Migration Utility
+
 Migration tool for moving existing Beachfront Piazza Jobs into the new PostgreSQL database. 
+
+## Web Application
+
+This project is hosted as a web application such that it could be deployed into Cloud Foundry (assuming one creates a manifest) and run the Migration from that environment.
 
 ## Usage
 
