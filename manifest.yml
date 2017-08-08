@@ -1,0 +1,11 @@
+applications:
+- name: bfutil-db-migration
+  host: bfutil-db-migration
+  path: 'target/bfutil-db-migration-0.0.1.jar'
+  memory: 1024
+  instances: 21
+  timeout: 80
+  services:
+    - pz-geoserver-efs
+  env:
+    SPRING_PROFILES_ACTIVE: cloud
