@@ -2,8 +2,9 @@ applications:
 - name: bfutil-db-migration
   host: bfutil-db-migration
   path: 'target/bfutil-db-migration-0.0.1.jar'
+  buildpack: java_buildpack
   memory: 1024M
-  instances: 21
+  instances: 1
   timeout: 80
   services:
     - pz-geoserver-efs
