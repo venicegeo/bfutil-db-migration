@@ -2,7 +2,7 @@ applications:
 - name: bfutil-db-migration
   host: bfutil-db-migration
   path: 'target/bfutil-db-migration-0.0.1.jar'
-  memory: 1024
+  memory: 1024M
   instances: 21
   timeout: 80
   services:
